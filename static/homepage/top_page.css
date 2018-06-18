@@ -1,0 +1,22 @@
+.top-image{
+    height: 600px;
+    background-color: rgba(30, 30, 30, 0.7);
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    line-height: 600px;
+}
+
+.top-image h1{
+    letter-spacing: 0.3em;
+    font-size: 90px;
+    line-height: 600px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.intro{
+    color: black;
+    height: 400px;
+}
