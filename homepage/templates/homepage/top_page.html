@@ -1,0 +1,13 @@
+{% extends 'homepage/base.html' %}
+
+{% block content %}
+
+{% load staticfiles %}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/top_page.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="{% static 'blog/top_page.js' %}"></script>
+</head>
+
+{% endblock %}

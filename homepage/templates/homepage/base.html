@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<head>
+    <title>K-Tube</title>
+    <link rel="stylesheet" href="{% static 'homepage/base.css' %}">
+    <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+</head>
+<body>
+<div class="banner-wrapper">
+    <div class="banner">
+        <div class="logo">
+
+        </div>
+        <div class="summary">
+            <ul class="list summary-list">
+                <li>概要</li>
+                <li>メンバー</li>
+                <li>お知らせ</li>
+                <li>お問い合わせ</li>
+            </ul>
+            <hr class="banner-border" color="white" width="50" size="2px">
+        </div>
+        <div class="branch">
+            <ul class="list branch-list">
+                <li>K-food</li>
+                <li>K-study</li>
+                <li>K-club</li>
+                <li>K-lady</li>
+                <li>K-cook</li>
+                <li>K-travel</li>
+                <li>K-singer</li>
+            </ul>
+            <hr class="banner-border" color='white' width="50" size="2px">
+        </div>
+        <div class="contact">
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter-square"></i>
+            <span class="address">miffy.koutarou@gmail.com</span>
+        </div>
+    </div>
+</div>
+
+<div class="contents">
+{% block content %}
+{% endblock %}
+</div>
+
+</body>
