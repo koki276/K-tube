@@ -54,8 +54,8 @@ body{
     font-family: 'Muli', sans-serif;
 }
 
-.contents{
-    position: fixed;
+.contents-wrapper{
+    position: absolute;
     top: 0;
     left: 230px;
     width: calc(100% - 230px);

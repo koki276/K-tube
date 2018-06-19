@@ -1,22 +1,94 @@
+.fas{
+    font-size: 60px;
+    cursor: pointer;
+}
+
 .top-image{
     height: 600px;
-    background-color: rgba(30, 30, 30, 0.7);
+    background-image: url("images/top-image.jpg");
+    background-size: cover;
     font-family: 'Muli', sans-serif;
     text-align: center;
     line-height: 600px;
 }
 
 .top-image h1{
-    letter-spacing: 0.3em;
-    font-size: 90px;
+    font-size: 150px;
     line-height: 600px;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
+    font-weight: normal;
+    color: black;
 }
 
 .intro{
     color: black;
-    height: 400px;
+    height: 800px;
+    text-align: center;
 }
+
+.intro h1{
+    line-height: 800px;
+}
+
+.wrapper{
+    height: 600px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.cover{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    z-index: 10;
+    background-color: #003366;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cover h1{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.contents{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    z-index: 5;
+    background-color: #79aec8;
+}
+
+.contents h2{
+    text-align: center;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.fa-angle-double-down{
+    margin-top: 30px;
+}
+
+.fa-angle-double-up{
+    margin-top: 250px;
+}
+
+.span{
+    height: 200px;
+}
+
