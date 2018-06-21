@@ -4,6 +4,214 @@
 
 {% load staticfiles %}
 
+<head>
+    <link rel="stylesheet" type="text/css" href="intro_member.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="{% static 'blog/top_page.js' %}"></script>
+    <title>Members｜K-tube</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="title">
+                <h2 class="main-title">
+                    <span class="main-title-ja">メンバー紹介</span>
+                    <br><span class="main-title-en">Members</span>
+                </h2>
+            </div>
+            <div class="semi-title">
+                <p>K-tube所属メンバーを紹介していきます！</p>
+            </div>
+        </div>
+    </header>
+<!--モーダル１開始-->
+    <div class="members-modal mdla">
+        <div class="modal">
+            <div class="close-modal">
+                <i class="fa fa-2x fa-times"></i>
+            </div>
+            <div class="img-modal">
+                <img src="kurodo.jpg">
+            </div>
+            <div class="spcfc-modal">
+                <div class="name-modal">
+                    <p class="name-en">Kurodo Tokuhara
+                    <br><span class="name-ja">徳原 玄大</span></p>
+                </div>
+                <div class="table-modal">
+                    <table rules="groups" border="1">
+                        <tr>
+                            <tbody>
+                                <td class="q">出身地</td>
+                                <td>東京都</td>
+                            </tbody>
+                        </tr>
+                        <tr>
+                            <tbody>
+                                <td class="q">生年月日</td>
+                                <td>1997年</td>
+                        </tbody>
+                        </tr>
+                        <tr>
+                            <tbody>
+                                <td class="q">趣味・特技</td>
+                                <td>テニス</td>
+                            </tbody>
+                        </tr>
+                        <tr>
+                            <tbody>
+                                <td class="q wide">一言</td>
+                                <td>ウェイよー</td>
+                            </tbody>
+                        </tr>
+                    </table>
+                </div>
+            </div>            
+        </div>
+    </div>
+<!--モーダル２開始-->
+    <div class="members-modal mdlb">
+        <div class="modal">
+            <div class="close-modal">
+                <i class="fa fa-2x fa-times"></i>
+            </div>
+            <div class="img-modal">
+                <img src="baku.jpg">
+            </div>
+            <div class="spcfc-modal">
+                <div class="name-modal">
+                    <p class="name-modal-en">Baku Shihon
+                    <br><span class="name-modal-ja">バク シホン </span></p>
+                </div>
+                <div class="table-modal">
+                    <table rules="groups" border="1">
+                        <tr>
+                            <tbody>
+                                <td class="q">出身地</td>
+                                <td>韓国</td>
+                            </tbody>
+                        </tr>
+                        <tr>
+                            <tbody>
+                                <td class="q">生年月日</td>
+                                <td>1997年 2月20日</td>
+                        </tbody>
+                        </tr>
+                        <tr>
+                            <tbody>
+                                <td class="q">趣味・特技</td>
+                                <td>音楽鑑賞 歌 映画</td>
+                            </tbody>
+                        </tr>
+                        <tr>
+                            <tbody>
+                                <td class="q wide">一言</td>
+                                <td>商学部2年のバクシホンです。<br>韓国から参りました。<br>好きなものは音楽とプリンで特技は歌ことです。</td>
+                            </tbody>
+                        </tr>
+                    </table>
+                </div>
+            </div>            
+        </div>
+    </div>
+<!--モーダル３開始-->
 
+
+<!--member 開始-->
+    <div class="main-contents">
+        <div class="main-whole">
+            <div class="members">
+<!--member1 開始-->
+                <div class="member">
+                    <div class="member-intro">
+                        <img class="jmp jmpa hv" src="kurodo.jpg">
+                        <div class="member-intro-p">
+                            <p>
+                                <span class="name-ja jmp jmpa hv-txt">徳原 玄大</span>
+                                <br><span class="name-en jmp jmpa hv-txt">Kurodo Tokuhara</span>
+                                <br><span class="pst">〇〇担当</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+<!--member2 開始-->
+                <div class="member">
+                    <div class="member-intro">
+                        <img class="jmp jmpb hv" src="baku.jpg">
+                        <div class="member-intro-p">
+                            <p>
+                                <span class="name-ja jmp jmpb hv-txt">バク シホン</span>
+                                <br><span class="name-en jmp jmpb hv-txt">Baku Shihon</span>
+                                <br><span class="pst">〇〇担当</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-intro">
+                        <img src="kurodo.jpg">
+                        <div class="member-intro-p">
+                            <p>徳原玄大</p>
+                            <p>Kurodo Tokuhara</p>
+                            <p>〇〇担当</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-intro">
+                        <img src="kurodo.jpg">
+                        <div class="member-intro-p">
+                            <p>徳原玄大</p>
+                            <p>Kurodo Tokuhara</p>
+                            <p>〇〇担当</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-intro">
+                        <img src="kurodo.jpg">
+                        <div class="member-intro-p">
+                            <p>徳原玄大</p>
+                            <p>Kurodo Tokuhara</p>
+                            <p>〇〇担当</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-intro">
+                        <img src="kurodo.jpg">
+                        <div class="member-intro-p">
+                            <p>徳原玄大</p>
+                            <p>Kurodo Tokuhara</p>
+                            <p>〇〇担当</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-intro">
+                        <img src="kurodo.jpg">
+                        <div class="member-intro-p">
+                            <p>徳原玄大</p>
+                            <p>Kurodo Tokuhara</p>
+                            <p>〇〇担当</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-intro">
+                        <img src="kurodo.jpg">
+                        <div class="member-intro-p">
+                            <p>徳原玄大</p>
+                            <p>Kurodo Tokuhara</p>
+                            <p>〇〇担当</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="members.js"></script>
+</body>
 
 {% endblock %}
