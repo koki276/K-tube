@@ -3,13 +3,12 @@
     cursor: pointer;
 }
 
-.top-image{
-    height: 600px;
-    background-image: url("images/top-image.jpg");
+.top-image {
+    height: 650px;
+    background-image: url("images/top-image-neon-cut.jpg");
     background-size: cover;
     font-family: 'Muli', sans-serif;
     text-align: center;
-    line-height: 600px;
 }
 
 .top-image h1{
