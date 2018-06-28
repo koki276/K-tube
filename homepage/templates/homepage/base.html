@@ -13,12 +13,12 @@
 <div class="banner-wrapper">
     <div class="banner">
         <div class="logo">
-            <img class="k_tube_logo" src="{% static 'homepage/images/logo_black.png' %}" width="115" height="115">
+            <a href="{% url 'top_page' %}"><img class="k_tube_logo" src="{% static 'homepage/images/logo_black.png' %}" width="115" height="115"></a>
         </div>
         <div class="summary">
             <ul class="list summary-list">
-                <li>概要</li>
-                <li>メンバー</li>
+                <a class="main-list" href="{% url 'top_page' %}"><li>ホーム</li></a>
+                <a class="main-list" href="{% url 'members' %}"><li>メンバー</li></a>
                 <li>お知らせ</li>
                 <li>お問い合わせ</li>
             </ul>

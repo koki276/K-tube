@@ -1,7 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: black;
+}
+
+.banner-border{
+    margin: 0 auto;
 }
 
 .banner-wrapper{
@@ -11,7 +21,10 @@ body{
     text-align: center;
     position: fixed;
     background-color: #ff132a;
+    background-color: black;
+    border-right: solid red 1px;
     color: white;
+    z-index: 15;
 }
 
 .logo{
@@ -23,6 +36,7 @@ body{
 }
 
 .list{
+    color: white;
     list-style: none;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
@@ -35,6 +49,11 @@ body{
     font-size: 13px;
     line-height: 1.6em;
     margin: 20px 0 20px 0;
+}
+
+.main-list{
+    text-decoration: none;
+    color: white;
 }
 
 .branch-list{

@@ -5,7 +5,7 @@
 
 .top-image {
     height: 650px;
-    background-image: url("images/top-image-neon-cut.jpg");
+    background-image: url("images/top-image-neon .jpg");
     background-size: cover;
     font-family: 'Muli', sans-serif;
     text-align: center;
@@ -23,13 +23,18 @@
 }
 
 .intro{
-    color: black;
-    height: 800px;
-    text-align: center;
+    font-family: "Sawarabi Gothic";
+    margin: 20px auto;
+    color: white;
+    height: 500px;
+    width: 40%;
+    font-size: 25px;
+    font-weight: normal;
 }
 
-.intro h1{
-    line-height: 800px;
+.top-sentence{
+    display: inline-block;
+    margin: 40px 0;
 }
 
 .wrapper{
@@ -56,7 +61,22 @@
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     margin-top: 200px;
-    font-size: 50px;
+    font-size: 100px;
+}
+
+.mission-cover{
+    background-image: url("images/mission-steps.jpg");
+    background-size: cover;
+}
+
+.vision-cover{
+    background-image: url("images/vision3.jpg");
+    background-size: cover;
+}
+
+.value-cover{
+    background-image: url("images/value.jpg");
+    background-size: cover;
 }
 
 .contents{
@@ -81,10 +101,12 @@
 
 .fa-angle-double-down{
     margin-top: 30px;
+    font-size: 90px;
 }
 
 .fa-angle-double-up{
-    margin-top: 250px;
+    margin-top: 160px;
+    font-size: 90px;
 }
 
 .span{

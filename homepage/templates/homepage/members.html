@@ -5,10 +5,10 @@
 {% load staticfiles %}
 
 <head>
-    <link rel="stylesheet" type="text/css" href="intro_member.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'homepage/members.css' %}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="{% static 'blog/top_page.js' %}"></script>
+    <script src="{% static 'homepage/members.js' %}"></script>
     <title>Members｜K-tube</title>
 </head>
 <body>
@@ -32,7 +32,7 @@
                 <i class="fa fa-2x fa-times"></i>
             </div>
             <div class="img-modal">
-                <img src="kurodo.jpg">
+                <img src="{% static 'homepage/images/kurodo.jpg' %}">
             </div>
             <div class="spcfc-modal">
                 <div class="name-modal">
@@ -77,7 +77,7 @@
                 <i class="fa fa-2x fa-times"></i>
             </div>
             <div class="img-modal">
-                <img src="baku.jpg">
+                <img src="{% static 'homepage/images/baku.jpg' %}">
             </div>
             <div class="spcfc-modal">
                 <div class="name-modal">
@@ -112,7 +112,7 @@
                         </tr>
                     </table>
                 </div>
-            </div>            
+            </div>
         </div>
     </div>
 <!--モーダル３開始-->
@@ -125,7 +125,7 @@
 <!--member1 開始-->
                 <div class="member">
                     <div class="member-intro">
-                        <img class="jmp jmpa hv" src="kurodo.jpg">
+                        <img class="jmp jmpa hv" src="{% static 'homepage/images/kurodo.jpg' %}">
                         <div class="member-intro-p">
                             <p>
                                 <span class="name-ja jmp jmpa hv-txt">徳原 玄大</span>
@@ -138,7 +138,7 @@
 <!--member2 開始-->
                 <div class="member">
                     <div class="member-intro">
-                        <img class="jmp jmpb hv" src="baku.jpg">
+                        <img class="jmp jmpb hv" src="{% static 'homepage/images/baku.jpg' %}">
                         <div class="member-intro-p">
                             <p>
                                 <span class="name-ja jmp jmpb hv-txt">バク シホン</span>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="member">
                     <div class="member-intro">
-                        <img src="kurodo.jpg">
+                        <img src="{% static 'homepage/images/baku.jpg' %}">
                         <div class="member-intro-p">
                             <p>徳原玄大</p>
                             <p>Kurodo Tokuhara</p>
@@ -160,7 +160,7 @@
                 </div>
                 <div class="member">
                     <div class="member-intro">
-                        <img src="kurodo.jpg">
+                        <img src="{% static 'homepage/images/kurodo.jpg' %}">
                         <div class="member-intro-p">
                             <p>徳原玄大</p>
                             <p>Kurodo Tokuhara</p>
@@ -170,7 +170,7 @@
                 </div>
                 <div class="member">
                     <div class="member-intro">
-                        <img src="kurodo.jpg">
+                        <img src="{% static 'homepage/images/kurodo.jpg' %}">
                         <div class="member-intro-p">
                             <p>徳原玄大</p>
                             <p>Kurodo Tokuhara</p>
@@ -180,7 +180,7 @@
                 </div>
                 <div class="member">
                     <div class="member-intro">
-                        <img src="kurodo.jpg">
+                        <img src="{% static 'homepage/images/kurodo.jpg' %}">
                         <div class="member-intro-p">
                             <p>徳原玄大</p>
                             <p>Kurodo Tokuhara</p>
@@ -190,7 +190,7 @@
                 </div>
                 <div class="member">
                     <div class="member-intro">
-                        <img src="kurodo.jpg">
+                        <img src="{% static 'homepage/images/kurodo.jpg' %}">
                         <div class="member-intro-p">
                             <p>徳原玄大</p>
                             <p>Kurodo Tokuhara</p>
@@ -200,7 +200,7 @@
                 </div>
                 <div class="member">
                     <div class="member-intro">
-                        <img src="kurodo.jpg">
+                        <img src="{% static 'homepage/images/kurodo.jpg' %}">
                         <div class="member-intro-p">
                             <p>徳原玄大</p>
                             <p>Kurodo Tokuhara</p>
